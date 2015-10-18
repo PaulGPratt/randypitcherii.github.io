@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<title>Chicago CrimeSeer</title>
+ 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" href="materialize/css/materialize.css">
+ 	<link rel="stylesheet" href="css/base.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Gorgeous Navbar -->	
+<div class="navbar-fixed">
+	<nav class="grey darken-3">
+		<div class="nav-wrapper" id="navbarContent">
+			<a href="index.html" class="brand-logo hide-on-med-and-down"><i class='fa fa-bar-chart'></i></a>
+      		<a href="index.html" class="brand-logo">&nbsp; &nbsp; &nbsp; Chicago Crimeseer</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+		    <ul class="right hide-on-med-and-down">
+          		<li><a href="index.html">Home</a></li>
+			    <li class='activeTab'><a href="dailyForcast.html">Daily Forecast</a></li>
+			    <li><a href="crimeInsights.html">Crime Insights</a></li>
+		    </ul>
+		    <ul class="side-nav" id="mobile-demo">
+			    <li><a href="index.html">Home</a></li>
+          		<li class='activeTab'><a class='white-text' href="dailyForcast.html">Daily Forecast</a></li>
+          		<li><a href="crimeInsights.html">Crime Insights</a></li>
+		    </ul>
+		</div>
+	</nav>
+</div>	
+
+ <div class='container'>
+  	<h2 class="header center"><i class="fa fa-area-chart"></i>  Criminal Predictitions</h2>
+ 	<h4 class='grey-text text-darken-3 center'>Using the power of Azure Machine Learning, criminal behavior can be predicted and prevented.</h4>
+
+ 	<div class='spacer'></div>
+
+ 	<div class='col s12 center'>
+ 		<h3 class="header">Criminal Forecast</h3>
+ 		<div class='spacer'></div>
+
+ 		<h5 class='grey-text text-darken-3'>Forecasted gang activity</h5>
+ 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 982px; height: 742px;'><noscript><a href='#'><img alt='Gang Evolution ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top5GangActivity&#47;GangEvolution&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='70vw' height='100vh' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Top5GangActivity&#47;GangEvolution' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top5GangActivity&#47;GangEvolution&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+
+ 		<div class='spacer'></div>
+
+ 		<h5 class='grey-text text-darken-3'>Most active criminals of the past 6 months</h5>
+ 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 982px; height: 742px;'><noscript><a href='#'><img alt='Top Offenders ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TopActiveOffenders&#47;TopOffenders&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='70vw' height='70vh' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='TopActiveOffenders&#47;TopOffenders' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TopActiveOffenders&#47;TopOffenders&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+
+ 		<div class='spacer'></div>
+ 		<div class='spacer'></div>
+
+ 		<div class='col l5 m6 s12 left offset-l1 bottomCushion'>
+ 			<h5 class='grey-text text-darken-3'>Probable Future Violent Criminals</h5>
+ 			<table class='highlight centered'>
+        	<thead>
+          		<tr>
+              		<th>Name</th>
+              		<th>Probability of Crime</th>
+         		</tr>
+        	</thead>
+        	<tbody>
+          		<tr>
+           			<td>LAKESHA WHITE</td>
+            		<td>0.9999</td>
+         		 </tr>
+          		<tr>
+           			<td>ANDREW JONES</td>
+            		<td>0.9994</td>
+         		 </tr>
+          		<tr>
+           			<td>ERROL ARGRUA</td>
+            		<td>0.9994</td>
+         		 </tr>
+          		<tr>
+           			<td>DAWAN WILLIAMS</td>
+            		<td>0.9992</td>
+         		 </tr>
+          		<tr>
+           			<td>LIVORUS GOODEN</td>
+            		<td>0.9991</td>
+         		 </tr>
+          		<tr>
+           			<td>MARIO MALTOS-ESCUTIA</td>
+            		<td>0.9991</td>
+         		 </tr>
+          		<tr>
+           			<td>MAURICE SALEM</td>
+            		<td>0.9987</td>
+         		 </tr>
+          		<tr>
+           			<td>TYRESE ABACUC</td>
+            		<td>0.9978</td>
+         		 </tr>
+          		<tr>
+           			<td>ELOY STEEL</td>
+            		<td>0.9973</td>
+         		 </tr>
+          		<tr>
+           			<td>ROGER WEAVER</td>
+            		<td>0.9970</td>
+         		 </tr>
+        	</tbody>
+      		</table>
+ 		</div>
+
+ 		<div class='col l5 m6 s12 offset-l1 right bottomCushionStrong'>
+ 		<h5 class='grey-text text-darken-3'>Probable Future Victims</h5>
+ 		<table class='highlight centered'>
+        <thead>
+          		<tr>
+              		<th>Name</th>
+              		<th>Probability of Crime</th>
+         		</tr>
+        	</thead>
+        	<tbody>
+          		<tr>
+           			<td>LATONYA JACKSON</td>
+            		<td>1.0000</td>
+         		 </tr>
+          		<tr>
+           			<td>SARAH LEON</td>
+            		<td>1.0000</td>
+         		 </tr>
+          		<tr>
+           			<td>VANESSA MOORE</td>
+            		<td>1.0000</td>
+         		 </tr>
+          		<tr>
+           			<td>ANGELA NAVA</td>
+            		<td>1.0000</td>
+         		 </tr>
+          		<tr>
+           			<td>YOLANDA JORDAN</td>
+            		<td>1.0000</td>
+         		 </tr>
+          		<tr>
+           			<td>OLIVIA LEWIS</td>
+            		<td>1.0000</td>
+         		 </tr>
+          		<tr>
+           			<td>GERRAISE WIILIAMS</td>
+            		<td>1.0000</td>
+         		 </tr>
+          		<tr>
+           			<td>SHAKIRA LEWIS</td>
+            		<td>1.0000</td>
+         		 </tr>
+          		<tr>
+           			<td>JAMES JONES</td>
+            		<td>1.0000</td>
+         		 </tr>
+          		<tr>
+           			<td>LONNIE KULBARASH</td>
+            		<td>1.0000</td>
+         		 </tr>
+        	</tbody>
+      		</table>
+ 		</div>
+ 	</div>
+	
+ 	<div class='spacer'></div>
+ 	<div class='spacer'></div>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="materialize/js/materialize.js"></script>
+</body>
+
+</html>

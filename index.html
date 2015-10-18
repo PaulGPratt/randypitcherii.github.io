@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 	<title>RPII</title>
+ 	<title>Chicago CrimeSeer</title>
  	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
  	<link rel="stylesheet" href="materialize/css/materialize.css">
  	<link rel="stylesheet" href="css/base.css">
@@ -11,97 +11,40 @@
 
 <!-- Gorgeous Navbar -->	
 <div class="navbar-fixed">
-	<nav class="blue-grey darken-4">
+	<nav class="grey darken-3">
 		<div class="nav-wrapper" id="navbarContent">
-			<a href="#!" class="brand-logo">Randy Pitcher</a>
+			<a href="index.html" class="brand-logo hide-on-med-and-down"><i class='fa fa-bar-chart'></i></a>
+      <a href="index.html" class="brand-logo">&nbsp; &nbsp; &nbsp; Chicago Crimeseer</a>
 			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
 		    <ul class="right hide-on-med-and-down">
-			    <li><a href="d3Examples.html">D3 Examples</a></li>
-			    <li><a href="threeJSExamples.html">ThreeJS</a></li>
-			    <li><a href="dataGenerator.html">Data Generator</a></li>
-			    <li><a href="https://github.com/randypitcherii">Github</a></li>
+          <li class='activeTab'><a href="index.html">Home</a></li>
+			    <li><a href="dailyForcast.html">Daily Forecast</a></li>
+			    <li><a href="crimeInsights.html">Crime Insights</a></li>
 		    </ul>
 		    <ul class="side-nav" id="mobile-demo">
-			    <li><a href="d3Examples.html">D3 Examples</a></li>
-			    <li><a href="threeJSExamples.html">ThreeJS</a></li>
-			    <li><a href="dataGenerator.html">Data Generator</a></li>
-			    <li><a href="https://github.com/randypitcherii">Github</a></li>
+			    <li class='activeTab'><a class='white-text' href="index.html">Home</a></li>
+          <li><a href="dailyForcast.html">Daily Forecast</a></li>
+          <li><a href="crimeInsights.html">Crime Insights</a></li>
 		    </ul>
 		</div>
 	</nav>
 </div>	
 
-<!-- Slider Construction -->
-<div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="img/img0.jpg">
-        <div class="caption center-align">
-          <div class="row">
-            <div class="center offset-l3 offset-m2 col l6 m8 s12">
-              <div class="textBackground col s12">
-                <h3 class="center">I am Randy Pitcher</h3> 
-              </div>
-          </div>
-        </div>
-      </li>
-      <li>
-        <img src="img/img4.jpg"> <!-- random image -->
-        <div class="caption left-align">
-          <div class="row">
-            <div class="center col l6 m8 s12">
-              <div class="textBackground col s12">
-                <h3 class="center">I'm a high-steaks web designer</h3> 
-              </div>
-          </div>
-        </div>
-      </li>
-      <li>
-        <img src="img/img2.jpg"> <!-- random image -->
-        <div class="caption right-align">
-          <div class="row">
-            <div class="center col l6 m8 s12 right">
-              <div class="textBackground col s12">
-                <h3 class="center">Meet MET, a completely silent metrenome</h3> 
-              </div>
-          </div>
-        </div>
-      </li>
-      <li>
-        <img src="img/img3.jpg"> <!-- random image -->
-        <div class="caption center-align">
-          <div class="row">
-            <div class="center offset-l3 offset-m2 col l6 m8 s12">
-              <div class="textBackground col s12">
-                <h3 class="center">Ask me about drums! Or my dog! Or your dog!</h3> 
-              </div>
-          </div>
-        </div>
-      </li>
-    </ul>
+  <div class="container center">
+  <h2 class="header center">Welcome to Chicago Crimeseer</h2>
+  <h4 class='grey-text text-darken-3 center'>CrimeSeer is the advanced analytics tool for putting the power of machine learning in the hands of Chicago's police force.</h4>
+
+  <div class='spacer'></div>
+  <div class='spacer'></div>
+
+  <div class='col s12 m6 offset-m3 l4 offset-l4'>
+    <a class="twitter-timeline" href="https://twitter.com/CPDALERTS" data-widget-id="655696359970971648">Tweets by @CPDALERTS</a>
+
   </div>
-
-  <div class="col s12" style="height:30px"></div>
-
-  <h4 class="header center">Have questions? Send me an email:</h4>
-  <div class="col s12 center">
-    <a class="btn-floating btn-large deep-orange accent-3 center" href="mailto:randypitcherii@gmail.com"><i class="fa fa-fire"></i></a>
-  </div>
-
-
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Welcome to my site!</h4>
-      <p>The site is currently being updated and may not be super functional yet. Don't worry though, that shouldn't last long!</p>
-      <p>Contact me at <a href="mailto:randypitcherii@gmail.com" class="orange-text">randypitcherii@gmail.com</a> to discuss how we can work together.</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
   </div>
 	
 
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="materialize/js/materialize.js"></script>

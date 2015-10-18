@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<title>Chicago CrimeSeer</title>
+ 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" href="materialize/css/materialize.css">
+ 	<link rel="stylesheet" href="css/base.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Gorgeous Navbar -->	
+<div class="navbar-fixed">
+	<nav class="grey darken-3">
+		<div class="nav-wrapper" id="navbarContent">
+			<a href="index.html" class="brand-logo hide-on-med-and-down"><i class='fa fa-bar-chart'></i></a>
+      		<a href="index.html" class="brand-logo">&nbsp; &nbsp; &nbsp; Chicago Crimeseer</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+		    <ul class="right hide-on-med-and-down">
+          		<li><a href="index.html">Home</a></li>
+			    <li><a href="dailyForcast.html">Daily Forecast</a></li>
+			    <li class='activeTab'><a href="crimeInsights.html">Crime Insights</a></li>
+		    </ul>
+		    <ul class="side-nav" id="mobile-demo">
+			    <li><a href="index.html">Home</a></li>
+          		<li><a href="dailyForcast.html">Daily Forecast</a></li>
+         		<li class='activeTab'><a class='white-text' href="crimeInsights.html">Crime Insights</a></li>
+		    </ul>
+		</div>
+	</nav>
+</div>	
+
+  <div class='container'>
+  	<h2 class="header center"><i class="fa fa-area-chart"></i>  Criminal Analytics</h2>
+ 	<h4 class='grey-text text-darken-3 center'>See how crime patterns are used to predict criminal behavior</h4>
+
+ 	<div class='spacer'></div>
+
+ 	<div class='col s12 center'>
+ 		<h3 class="header">When does crime happen?</h3>
+
+ 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder center' style='width: 982px; height: 742px;'><noscript><a href='#'><img alt='Gun Violence by Temperature ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gu&#47;GunViolencebyTemperature&#47;GunViolencebyTemperature&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz center' width='70vw' height='50vh' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='GunViolencebyTemperature&#47;GunViolencebyTemperature' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gu&#47;GunViolencebyTemperature&#47;GunViolencebyTemperature&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='n' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+
+ 		<div class='spacer'></div>
+
+ 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder'><noscript><a href='#'><img alt='Gun Violence by Day of the Week ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gu&#47;GunViolencebyDayoftheWeek&#47;GunViolencebyDayoftheWeek&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz center-align'  width='70vw' height='50vh' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='GunViolencebyDayoftheWeek&#47;GunViolencebyDayoftheWeek' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gu&#47;GunViolencebyDayoftheWeek&#47;GunViolencebyDayoftheWeek&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+ 	</div>
+
+  	<div class='spacer'></div>
+
+ 	<div class='col s12 center'>
+ 		<h3 class="header">Who commits crime?</h3>
+
+ 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 982px; height: 742px;'><noscript><a href='#'><img alt='Crimes by Age&#47;Gender ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrimebyAgeGender&#47;CrimesbyAgeGender&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='70vw' height='50vh' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='CrimebyAgeGender&#47;CrimesbyAgeGender' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrimebyAgeGender&#47;CrimesbyAgeGender&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+
+ 		<div class='spacer'></div>
+
+ 		<h5 class='grey-text text-darken-3'>Highest frequency comitters of violent crime</h5>
+ 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 982px; height: 742px;'><noscript><a href='#'><img alt='Offender Names ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Of&#47;Offendernames&#47;OffenderNames&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='70vw' height='70vh' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Offendernames&#47;OffenderNames' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Of&#47;Offendernames&#47;OffenderNames&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+
+ 		<div class='spacer'></div>
+
+ 		<h5 class='grey-text text-darken-3'>Highest frequency victims of violent crime</h5>
+ 		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 982px; height: 742px;'><noscript><a href='#'><img alt='Victim Names ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;Victimnames&#47;VictimNames&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='70vw' height='70vh' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Victimnames&#47;VictimNames' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;Victimnames&#47;VictimNames&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+ 	</div>
+ </div>	
+	
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="materialize/js/materialize.js"></script>
+</body>
+
+</html>
+

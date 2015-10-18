@@ -3,7 +3,18 @@
 	padding-right: 50px;
 }
 
-.textBackground {
-	background-color: #ff3d00   ;
-	opacity: 0.8;
+.activeTab {
+	background-color: #00897b ;
+}
+
+.spacer {
+	height: 30px;
+}
+
+.bottomCushionStrong {
+	padding-bottom: 120px;
+}
+
+.bottomCushion {
+	padding-bottom: 30px;
 }
